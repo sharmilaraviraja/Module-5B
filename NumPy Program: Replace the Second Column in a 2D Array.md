@@ -11,9 +11,25 @@ To write a **NumPy** program that deletes the second column from a given 2D arra
 5. **Display Result**: Print the updated array with the replaced column.
 
 ## 🧾 Program
+```
+import numpy as np 
 
+x=eval(input()) 
+
+y=eval(input()) 
+
+l1=np.array(x) 
+
+l2=np.array(y) 
+
+print(np.where(l1>l2)) 
+
+print(np.where(l1==l2))
+```
 Add code here
 
 ## Output
+<img width="721" height="214" alt="image" src="https://github.com/user-attachments/assets/5a484dac-d32a-425a-a5dd-110085ecd165" />
 
 ## Result
+Thus the python program for element wise comparison between two numpy array has been implemented and executed successfully.
